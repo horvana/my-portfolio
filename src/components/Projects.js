@@ -12,9 +12,9 @@ export default function Projects() {
                     <img src={image} alt={`${name} preview`}></img>
                 </div>
                 <div className="links">
-                  <a href={repo_url}>Live Page</a>
+                  <a href={repo_url} target="_blank" rel="noopener noreferrer">Source Code</a>
                   <span> | </span>
-                  <a href={live_page}>Source Code</a>
+                  <a href={live_page} target="_blank" rel="noopener noreferrer">Live Page</a>
                 </div>
               </div>
             );
