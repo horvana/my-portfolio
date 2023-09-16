@@ -109,7 +109,7 @@ span {
 .links a {
   height: 20px;
   text-decoration: none;
-  color: var(--primary-accent);
+  color: var(--accent-info);
   font-weight: bold;
   border: 1px solid var(--primary-accent);
   border-radius: 5px;
@@ -123,6 +123,15 @@ span {
 .links a:hover {
   background-color: var(--primary-accent);
   color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+
+a:hover {
+  color: var(--accent-info)
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
