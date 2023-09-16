@@ -137,25 +137,15 @@ a:hover {
 @media (min-width: 500px) and (max-width: 900px) {
   .projects {
     justify-content: center;
+    padding-bottom: 300px;
   }
 
   body {
     overflow: auto;
   }
-
-  .footer {
-    position: fixed; /* Fix the footer to the bottom of the viewport */
-    bottom: 0; /* Stick it to the bottom */
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-  }
-
-  .projects {
-    padding-bottom: 150px;
-  }
 }
 
-@media screen {
+/* @media screen {
   body {
     overflow: hidden;
   }
@@ -181,4 +171,4 @@ a:hover {
     border: none;
     cursor: pointer;
   }
-}
+} */
