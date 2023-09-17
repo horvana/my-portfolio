@@ -3,13 +3,13 @@
   --secondary-bg: #292929;
   --primary-text: #ffffff;
   --secondary-text: #bdc3c7;
-  --primary-accent: #3498db;
+  --primary-accent: #000000;
   --secondary-accent: #e74c3c;
   --accent-success: #27ae60;
   --accent-warning: #f39c12;
-  --accent-info: #3498db;
+  --accent-info: #bcbcbc;
   --accent-error: #e74c3c;
-  --white: #ffffff;
+  --white: #302d2d;
   --black: #000000;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .header h1 {
-  margin-top: 15px;
+  margin: 15px 0;
 }
 
 .footer {
@@ -67,9 +67,9 @@ body {
   background-color: var(--white);
   height: 250px;
   width: 400px;
-  border: 1px solid var(--primary-accent);
-  box-shadow: 0 0 10px ;
-  border-radius: 10px;
+  border: 1px solid var(--primary-bg);
+  box-shadow: 0 0 10px var(--black);
+  border-radius: 1px;
   margin: 10px 0;
 }
 
@@ -104,6 +104,7 @@ h2 {
 
 span {
   width: 20px;
+  margin-top: 15px;
 }
 
 .links a {
@@ -121,7 +122,7 @@ span {
 }
 
 .links a:hover {
-  background-color: var(--primary-accent);
+  background-color: var(--secondary-text);
   color: var(--white);
 }
 
@@ -132,6 +133,10 @@ a {
 
 a:hover {
   color: var(--accent-info)
+}
+
+p{
+  height: 25px;
 }
 
 @media (min-width: 500px) and (max-width: 900px) {
